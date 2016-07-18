@@ -7,6 +7,7 @@ The system is written in Python and uses two kinds of features from images and t
 The problem is described at: http://visualqa.org/
 
 ### Description of files:
+
 Assume that all the data were downloaded and put into the "Train" and "Val" folders. 
 1. train_text.ipynb or train_text.py: Train and generate predictions for validation set using text features.  
 2. train_images.ipynb or train_images.py: Train and generate predictions for validation set using image features.  
