@@ -4,6 +4,8 @@ In this project, I developed a machine learning model for Visual Question Answer
 
 The system is written in Python and uses two kinds of features from images and the text of the question. It makes use of convolution neural network for image features and a simple "bag-of-words" model for text features.
 
+The problem is described at: http://visualqa.org/
+
 ### Description of files:
 Assume that all the data were downloaded and put into the "Train" and "Val" folders. 
 1. train_text.ipynb or train_text.py: Train and generate predictions for validation set using text features.  
