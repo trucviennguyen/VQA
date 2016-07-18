@@ -1,7 +1,11 @@
 # Visual Question Answering - VQA
 
+In this project, I developed a machine learning model for Visual Question Answering. It is a combination of deep learning with text features. Given an image and a question related to this image, the system will automatically learn to generate an answer for this question. For example, if people give an image about Lugano lake, and ask a question like "Which season is that?", the system will analyze the image, the question and automatically generate the answer.
+
+The system is written in Python and uses two kinds of features from images and the text of the question. It makes use of convolution neural network for image features and a simple "bag-of-words" model for text features.
+
 ### Description of files:
-Assume that all the data were downloaded and put into the "Train" and "Val" folders.  
+Assume that all the data were downloaded and put into the "Train" and "Val" folders. 
 1. train_text.ipynb or train_text.py: Train and generate predictions for validation set using text features.  
 2. train_images.ipynb or train_images.py: Train and generate predictions for validation set using image features.  
 3. In the first case with text features, it generates file results_text.json  
