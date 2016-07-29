@@ -4,6 +4,8 @@ In this project, I developed a machine learning model for Visual Question Answer
 
 The system is written in Python and uses two kinds of features from images and the text of the question. It makes use of convolution neural network for image features and a simple "bag-of-words" model for text features.
 
+It was presented at Data Science Retreat and Python meetup in Berlin, Germany, July 2016.
+
 The problem is described at: http://visualqa.org/
 
 ### Description of files:
